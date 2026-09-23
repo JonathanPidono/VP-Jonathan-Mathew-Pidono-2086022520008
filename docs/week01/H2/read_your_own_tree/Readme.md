@@ -1,0 +1,2 @@
+Why Center is a separate widget rather than a property of Text?
+= Tugas Center berfungsi untuk simpan widget apa pun yang ada di dalamnya supaya posisinya pas di tengah. Center dipisah dari Text karena tugas keduanya beda, Text fokus menampilkan tulisan, sedangkan Center fokus mengatur posisi. Kalau Center dipindahkan menjadi bagian dari Text, maka widget lain seperti gambar, atau tombol tidak bisa ikut disimpan di tengah.
