@@ -1,0 +1,3 @@
+# Week 3  H1 — Theme your case study app 
+
+Saya memilih teal (#0F766E) sebagai seed colour karena pengguna TCG Vault adalah kolektor yang menyimpan kartu dari beberapa game sekaligus, dan tiap merek punya identitas warna sendiri yang umumnya terang dan mencolok. Jika memakai warna yang sama terang dan ramainya, warna itu akan bersaing dengan ilustrasi kartu. Teal terasa tenang dan tidak mencolok, sehingga kartu tetap menjadi hal yang paling berwarna di layar. Selain itu, palet terang dan gelap yang dihasilkan menjaga kontras teks, sehingga harga dan tingkat kelangkaan kartu tetap mudah dibaca, baik di ruangan terang maupun gelap.
