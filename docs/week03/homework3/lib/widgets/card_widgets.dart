@@ -47,8 +47,15 @@ class CardTile extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                   ),
                 ),
+                // Material's own toggle: `isSelected` + `selectedIcon` replaces
+                // the hand-rolled star / star_border ternary.
                 IconButton(
-                  icon: Icon(card.isFavorite ? Icons.star : Icons.star_border),
+                  isSelected: card.isFavorite,
+                  icon: const Icon(Icons.star_border),
+                  selectedIcon: const Icon(Icons.star),
+                  tooltip: card.isFavorite
+                      ? 'Remove from favourites'
+                      : 'Add to favourites',
                   onPressed: onToggleFavorite,
                 ),
               ],

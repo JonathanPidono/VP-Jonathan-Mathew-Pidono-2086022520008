@@ -71,7 +71,7 @@ class _VaultScreenState extends State<VaultScreen> {
                   totalCards: _cards.length,
                   totalValue: _cards.fold(0, (sum, c) => sum + c.valueRupiah),
                 ),
-                VaultSearchField(onChanged: _onQueryChanged),
+                VaultSearchField(query: _query, onChanged: _onQueryChanged),
                 BrandFilterBar(selected: _brand, onSelected: _onBrandSelected),
                 Expanded(
                   child: visible.isEmpty

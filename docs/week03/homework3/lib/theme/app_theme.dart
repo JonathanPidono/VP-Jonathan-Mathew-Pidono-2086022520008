@@ -33,6 +33,10 @@ abstract final class AppTheme {
         side: BorderSide(color: scheme.outlineVariant),
         selectedColor: scheme.secondaryContainer,
       ),
+      searchBarTheme: SearchBarThemeData(
+        elevation: const WidgetStatePropertyAll(0),
+        backgroundColor: WidgetStatePropertyAll(scheme.surfaceContainerHigh),
+      ),
     );
   }
 }
